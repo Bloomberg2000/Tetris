@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint 3.3.1">
+
+    <issue
+        id="MissingDefaultResource"
+        severity="Fatal"
+        message="The layout &quot;activity_game&quot; in layout-land has no declaration in the base `layout` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier"
+        category="Correctness"
+        priority="6"
+        summary="Missing Default"
+        explanation="If a resource is only defined in folders with qualifiers like `-land` or `-en`, and there is no default declaration in the base folder (`layout` or `values` etc), then the app will crash if that resource is accessed on a device where the device is in a configuration missing the given qualifier.&#xA;&#xA;As a special case, drawables do not have to be specified in the base folder; if there is a match in a density folder (such as `drawable-mdpi`) that image will be used and scaled. Note however that if you  only specify a drawable in a folder like `drawable-en-hdpi`, the app will crash in non-English locales.&#xA;&#xA;There may be scenarios where you have a resource, such as a `-fr` drawable, which is only referenced from some other resource with the same qualifiers (such as a `-fr` style), which itself has safe fallbacks. However, this still makes it possible for somebody to accidentally reference the drawable and crash, so it is safer to create a default dummy fallback in the base folder. Alternatively, you can suppress the issue by adding `tools:ignore=&quot;MissingDefaultResource&quot;` on the element.&#xA;&#xA;(This scenario frequently happens with string translations, where you might delete code and the corresponding resources, but forget to delete a translation. There is a dedicated issue id for that scenario, with the id `ExtraTranslation`.)"
+        errorLine1="&lt;LinearLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+        errorLine2=" ~~~~~~~~~~~~">
+        <location
+            file="/Users/Bloomberg/Documents/Workspace/AndroidStudioProjects/Blockinger/app/src/main/res/layout-land/activity_game.xml"
+            line="2"
+            column="2"/>
+    </issue>
+
+    <issue
+        id="MissingDefaultResource"
+        severity="Fatal"
+        message="The layout &quot;activity_game&quot; in layout-port has no declaration in the base `layout` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier"
+        category="Correctness"
+        priority="6"
+        summary="Missing Default"
+        explanation="If a resource is only defined in folders with qualifiers like `-land` or `-en`, and there is no default declaration in the base folder (`layout` or `values` etc), then the app will crash if that resource is accessed on a device where the device is in a configuration missing the given qualifier.&#xA;&#xA;As a special case, drawables do not have to be specified in the base folder; if there is a match in a density folder (such as `drawable-mdpi`) that image will be used and scaled. Note however that if you  only specify a drawable in a folder like `drawable-en-hdpi`, the app will crash in non-English locales.&#xA;&#xA;There may be scenarios where you have a resource, such as a `-fr` drawable, which is only referenced from some other resource with the same qualifiers (such as a `-fr` style), which itself has safe fallbacks. However, this still makes it possible for somebody to accidentally reference the drawable and crash, so it is safer to create a default dummy fallback in the base folder. Alternatively, you can suppress the issue by adding `tools:ignore=&quot;MissingDefaultResource&quot;` on the element.&#xA;&#xA;(This scenario frequently happens with string translations, where you might delete code and the corresponding resources, but forget to delete a translation. There is a dedicated issue id for that scenario, with the id `ExtraTranslation`.)"
+        errorLine1="&lt;LinearLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+        errorLine2=" ~~~~~~~~~~~~">
+        <location
+            file="/Users/Bloomberg/Documents/Workspace/AndroidStudioProjects/Blockinger/app/src/main/res/layout-port/activity_game.xml"
+            line="3"
+            column="2"/>
+    </issue>
+
+    <issue
+        id="MissingDefaultResource"
+        severity="Fatal"
+        message="The layout &quot;activity_game_alt&quot; in layout-land has no declaration in the base `layout` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier"
+        category="Correctness"
+        priority="6"
+        summary="Missing Default"
+        explanation="If a resource is only defined in folders with qualifiers like `-land` or `-en`, and there is no default declaration in the base folder (`layout` or `values` etc), then the app will crash if that resource is accessed on a device where the device is in a configuration missing the given qualifier.&#xA;&#xA;As a special case, drawables do not have to be specified in the base folder; if there is a match in a density folder (such as `drawable-mdpi`) that image will be used and scaled. Note however that if you  only specify a drawable in a folder like `drawable-en-hdpi`, the app will crash in non-English locales.&#xA;&#xA;There may be scenarios where you have a resource, such as a `-fr` drawable, which is only referenced from some other resource with the same qualifiers (such as a `-fr` style), which itself has safe fallbacks. However, this still makes it possible for somebody to accidentally reference the drawable and crash, so it is safer to create a default dummy fallback in the base folder. Alternatively, you can suppress the issue by adding `tools:ignore=&quot;MissingDefaultResource&quot;` on the element.&#xA;&#xA;(This scenario frequently happens with string translations, where you might delete code and the corresponding resources, but forget to delete a translation. There is a dedicated issue id for that scenario, with the id `ExtraTranslation`.)"
+        errorLine1="&lt;LinearLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+        errorLine2=" ~~~~~~~~~~~~">
+        <location
+            file="/Users/Bloomberg/Documents/Workspace/AndroidStudioProjects/Blockinger/app/src/main/res/layout-land/activity_game_alt.xml"
+            line="3"
+            column="2"/>
+    </issue>
+
+    <issue
+        id="MissingDefaultResource"
+        severity="Fatal"
+        message="The layout &quot;activity_game_alt&quot; in layout-port has no declaration in the base `layout` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier"
+        category="Correctness"
+        priority="6"
+        summary="Missing Default"
+        explanation="If a resource is only defined in folders with qualifiers like `-land` or `-en`, and there is no default declaration in the base folder (`layout` or `values` etc), then the app will crash if that resource is accessed on a device where the device is in a configuration missing the given qualifier.&#xA;&#xA;As a special case, drawables do not have to be specified in the base folder; if there is a match in a density folder (such as `drawable-mdpi`) that image will be used and scaled. Note however that if you  only specify a drawable in a folder like `drawable-en-hdpi`, the app will crash in non-English locales.&#xA;&#xA;There may be scenarios where you have a resource, such as a `-fr` drawable, which is only referenced from some other resource with the same qualifiers (such as a `-fr` style), which itself has safe fallbacks. However, this still makes it possible for somebody to accidentally reference the drawable and crash, so it is safer to create a default dummy fallback in the base folder. Alternatively, you can suppress the issue by adding `tools:ignore=&quot;MissingDefaultResource&quot;` on the element.&#xA;&#xA;(This scenario frequently happens with string translations, where you might delete code and the corresponding resources, but forget to delete a translation. There is a dedicated issue id for that scenario, with the id `ExtraTranslation`.)"
+        errorLine1="&lt;LinearLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+        errorLine2=" ~~~~~~~~~~~~">
+        <location
+            file="/Users/Bloomberg/Documents/Workspace/AndroidStudioProjects/Blockinger/app/src/main/res/layout-port/activity_game_alt.xml"
+            line="3"
+            column="2"/>
+    </issue>
+
+</issues>

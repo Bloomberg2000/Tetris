@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/Bloomberg/Documents/Workspace/AndroidStudioProjects/Blockinger/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw1080dp-port-v13/values-sw1080dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/Bloomberg/Documents/Workspace/AndroidStudioProjects/Blockinger/app/src/main/res/values-sw1080dp-port/dimens.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "59",
+                        "endOffsets": "72"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "59",
+                        "endOffsets": "110"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,193 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:2:1-41:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/c71c668bbb7c7f08a285a0d2f463ef89/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/c9df562a8e5de879db7e2ad8a3a85344/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc01.aar/eb5d931fbfb7c5aa8dad6002b46158bd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-rc01.aar/258f466c8f6114441a3d6e8b37a975c2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc01.aar/b24c89a2ac3292ac4127b606937e9714/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc01.aar/eb7d0c9100390398f0a2468a876d6deb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-rc01.aar/494e4717715cd0f374b18f2947be3261/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc01.aar/f542f039630931b2627f98b6e579dc4d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc01.aar/62afa26a49ada4d7726abeb48bbc8f0e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc01.aar/5fdcbba71650e1e69ab598c02ca29b1d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc01.aar/3bc4dd38bd5b947482c1546adb6ac679/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc01.aar/617437fd46b6208be71e19797f90536e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc01.aar/ba06cf840eb2eba026574dd586d0c277/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc01.aar/b0c5ec57a94ed42c3214df4daf021f53/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc01.aar/7a67fea400fa5ace8bcaf12f9911a8fa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc01.aar/9c84027dc6d67ddb4b447549a2585f08/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc01.aar/c22126421ebfaad94be826943635614c/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc01.aar/36c0ab0880f6260032bf80ec16e283d9/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9eb186b1a5d70fe0754812d61e8a21c1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc01.aar/91a2c4d1f0d8236a4c9a0e276d6f7f03/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc01.aar/35d3c51c5660b0d726f0973c1f83b3b3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc01.aar/d43fbb4de12d40fbd708e80b2d171b68/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/9fd92faaae73e7891326bce72c7f82a9/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/b9c88ab9dd721457683ba6044479aade/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ee2e07c63611257eb2a2f89e70c6f599/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc01.aar/0b54c25d660f5137d6a360902156868b/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:2:1-41:12
+	package
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:2:1-41:12
+		INJECTED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:2:1-41:12
+		INJECTED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:5:22-63
+supports-screens
+ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:7:5-13:40
+	android:largeScreens
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:9:9-36
+	android:smallScreens
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:12:9-36
+	android:normalScreens
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:10:9-37
+	android:xlargeScreens
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:13:9-37
+	android:resizeable
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:11:9-34
+	android:anyDensity
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:8:9-34
+application
+ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:14:5-40:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/c9df562a8e5de879db7e2ad8a3a85344/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/c9df562a8e5de879db7e2ad8a3a85344/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc01.aar/9c84027dc6d67ddb4b447549a2585f08/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc01.aar/9c84027dc6d67ddb4b447549a2585f08/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc01.aar/c22126421ebfaad94be826943635614c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc01.aar/c22126421ebfaad94be826943635614c/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc01.aar/9c84027dc6d67ddb4b447549a2585f08/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:16:9-41
+	android:icon
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:15:9-38
+	android:theme
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:17:9-40
+activity#com.bloomberg.tetris.activities.MainActivity
+ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:18:9-27:20
+	android:label
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:21:13-45
+	android:configChanges
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:20:13-72
+	android:theme
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:22:13-48
+	android:name
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:19:13-72
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:23:13-26:29
+action#android.intent.action.MAIN
+ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:25:27-74
+activity#com.bloomberg.tetris.activities.GameActivity
+ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:28:9-31:51
+	android:label
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:30:13-56
+	android:theme
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:31:13-48
+	android:name
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:29:13-72
+activity#com.bloomberg.tetris.activities.SettingsActivity
+ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:32:9-35:51
+	android:label
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:34:13-60
+	android:theme
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:35:13-48
+	android:name
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:33:13-76
+activity#com.bloomberg.tetris.activities.AdvancedSettingsActivity
+ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:36:9-39:51
+	android:label
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:38:13-59
+	android:theme
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:39:13-48
+	android:name
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml:37:13-84
+uses-sdk
+INJECTED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/c71c668bbb7c7f08a285a0d2f463ef89/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/c71c668bbb7c7f08a285a0d2f463ef89/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/c9df562a8e5de879db7e2ad8a3a85344/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/c9df562a8e5de879db7e2ad8a3a85344/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc01.aar/eb5d931fbfb7c5aa8dad6002b46158bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc01.aar/eb5d931fbfb7c5aa8dad6002b46158bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-rc01.aar/258f466c8f6114441a3d6e8b37a975c2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-rc01.aar/258f466c8f6114441a3d6e8b37a975c2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc01.aar/b24c89a2ac3292ac4127b606937e9714/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc01.aar/b24c89a2ac3292ac4127b606937e9714/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc01.aar/eb7d0c9100390398f0a2468a876d6deb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc01.aar/eb7d0c9100390398f0a2468a876d6deb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-rc01.aar/494e4717715cd0f374b18f2947be3261/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-rc01.aar/494e4717715cd0f374b18f2947be3261/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc01.aar/f542f039630931b2627f98b6e579dc4d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc01.aar/f542f039630931b2627f98b6e579dc4d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc01.aar/62afa26a49ada4d7726abeb48bbc8f0e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc01.aar/62afa26a49ada4d7726abeb48bbc8f0e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc01.aar/5fdcbba71650e1e69ab598c02ca29b1d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc01.aar/5fdcbba71650e1e69ab598c02ca29b1d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc01.aar/3bc4dd38bd5b947482c1546adb6ac679/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc01.aar/3bc4dd38bd5b947482c1546adb6ac679/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc01.aar/617437fd46b6208be71e19797f90536e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc01.aar/617437fd46b6208be71e19797f90536e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc01.aar/ba06cf840eb2eba026574dd586d0c277/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc01.aar/ba06cf840eb2eba026574dd586d0c277/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc01.aar/b0c5ec57a94ed42c3214df4daf021f53/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc01.aar/b0c5ec57a94ed42c3214df4daf021f53/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc01.aar/7a67fea400fa5ace8bcaf12f9911a8fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc01.aar/7a67fea400fa5ace8bcaf12f9911a8fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc01.aar/9c84027dc6d67ddb4b447549a2585f08/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc01.aar/9c84027dc6d67ddb4b447549a2585f08/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc01.aar/c22126421ebfaad94be826943635614c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc01.aar/c22126421ebfaad94be826943635614c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc01.aar/36c0ab0880f6260032bf80ec16e283d9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc01.aar/36c0ab0880f6260032bf80ec16e283d9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9eb186b1a5d70fe0754812d61e8a21c1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9eb186b1a5d70fe0754812d61e8a21c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc01.aar/91a2c4d1f0d8236a4c9a0e276d6f7f03/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc01.aar/91a2c4d1f0d8236a4c9a0e276d6f7f03/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc01.aar/35d3c51c5660b0d726f0973c1f83b3b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc01.aar/35d3c51c5660b0d726f0973c1f83b3b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc01.aar/d43fbb4de12d40fbd708e80b2d171b68/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc01.aar/d43fbb4de12d40fbd708e80b2d171b68/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/9fd92faaae73e7891326bce72c7f82a9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/9fd92faaae73e7891326bce72c7f82a9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/b9c88ab9dd721457683ba6044479aade/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/b9c88ab9dd721457683ba6044479aade/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ee2e07c63611257eb2a2f89e70c6f599/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ee2e07c63611257eb2a2f89e70c6f599/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc01.aar/0b54c25d660f5137d6a360902156868b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc01] /Users/Bloomberg/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc01.aar/0b54c25d660f5137d6a360902156868b/AndroidManifest.xml:20:5-44
+INJECTED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Bloomberg/Documents/GitHubRepository/Tetris/app/src/main/AndroidManifest.xml

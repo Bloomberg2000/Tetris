@@ -1,0 +1,4 @@
+#Wed Apr 17 16:31:35 CST 2019
+base.0=/Users/Bloomberg/Documents/GitHubRepository/Tetris/app/build/intermediates/transforms/dexMerger/debug/4
+path.0=classes.dex
+renamed.0=classes.dex

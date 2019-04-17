@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/Bloomberg/Documents/Workspace/AndroidStudioProjects/Blockinger/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/Bloomberg/Documents/Workspace/AndroidStudioProjects/Blockinger/app/src/main/res/values-sw720dp-land/dimens.xml",
+                    "from": {
+                        "startLines": "1,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "17,77",
+                        "endColumns": "58,56",
+                        "endOffsets": "71,129"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,114",
+                        "endColumns": "58,56",
+                        "endOffsets": "109,166"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context="com.blockinger.bloomberg.activities.GameActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/View05"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.8"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/leftButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                android:clickable="true"
+                android:contentDescription="left move Button"
+                android:scaleType="centerInside"
+                android:src="@drawable/left_button_icon_hd" />
+
+            <View
+                android:id="@+id/View04"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1" />
+
+            <ImageButton
+                android:id="@+id/rightButton"
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:contentDescription="right Move Button"
+                android:scaleType="centerInside"
+                android:src="@drawable/right_button_icon_hd" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/spacerl0"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.1" />
+
+        <ImageButton
+            android:id="@+id/hardDropButton"
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:contentDescription="Hard Drop Button"
+            android:scaleType="centerInside"
+            android:src="@drawable/hard_drop_button_icon_hd" />
+
+        <View
+            android:id="@+id/View03"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.3" />
+
+        <View
+            android:id="@+id/View07"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_weight="0" />
+
+    </LinearLayout>
+
+    <com.blockinger.bloomberg.others.BlockBoardView
+        android:id="@+id/boardView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2.1"
+        android:background="@null" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/View06"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.8">
+
+            <ImageButton
+                android:id="@+id/rotateLeftButton"
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:contentDescription="rotate left Button"
+                android:scaleType="centerInside"
+                android:src="@drawable/rotate_left_button_icon_hd" />
+
+            <View
+                android:id="@+id/View02"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1" />
+
+            <ImageButton
+                android:id="@+id/rotateRightButton"
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:contentDescription="rotate right Button"
+                android:scaleType="centerInside"
+                android:src="@drawable/rotate_right_button_icon_hd" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/bottom_right_spacer"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.1" />
+
+        <ImageButton
+            android:id="@+id/softDropButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:contentDescription="soft Drop Button"
+            android:scaleType="centerInside"
+            android:src="@drawable/soft_drop_button_icon_hd" />
+
+        <View
+            android:id="@+id/View01"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.3" />
+
+        <Button
+            android:id="@+id/pausebutton_1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="0"
+            android:text="@string/pausebutton" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/top_right_spacer"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.05" />
+
+</LinearLayout>

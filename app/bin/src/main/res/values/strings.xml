@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <string name="app_name">俄罗斯方块</string>
+    <string name="action_settings">设置</string>
+    <string name="action_backtomain">返回</string>
+    <string name="action_help">帮助</string>
+    <string name="startButtonString">开始新游戏</string>
+    <string name="resumeButtonString">继续游戏</string>
+    <string name="quitButtonString">退出</string>
+    <string name="pausebutton">暂停</string>
+    <string name="holdbuttonstring">保持</string>
+    <string name="playerNameInputFieldHint">请输入玩家名称</string>
+    <string name="highscoreListDescription">最高分</string>
+
+    <string name="startLevelDialogTitle">初始下落速率</string>
+    <string name="startLevelDialogCancel">取消</string>
+    <string name="startLevelDialogStart">开始游戏</string>
+
+    <string name="title_activity_game">俄罗斯方块</string>
+    <string name="title_activity_help">帮助</string>
+    <string name="score_title">得分</string>
+    <string name="level_title">速率</string>
+    <string name="time_title">时间</string>
+    <string name="apm_title">APM</string>
+    <string name="fps_title">FPS</string>
+
+    <string name="defeatDialogTitle">游戏结束</string>
+    <string name="defeatDialogReturn">返回</string>
+
+    <string name="tab">\u0009</string>
+
+    <string name="anonymous">匿名</string>
+    <string name="scoreLabel">得分:</string>
+    <string name="timeLabel">用时:</string>
+    <string name="apmLabel">每分钟操作次数(APM):</string>
+    <string name="highscore_title">得分榜</string>
+
+
+    <!-- Preference Strings -->
+    <string name="title_activity_settings">设置</string>
+
+    <string name="pref_phantom_summary">显示方块的下落位置</string>
+    <string name="pref_phantom_title">下落预测显示</string>
+
+    <string name="pref_popup_summary">当成功消除行时弹出得分提示</string>
+    <string name="pref_popup_title">得分提示</string>
+
+    <string name="pref_rng_title">方块生成方式</string>
+    <string name="pref_rngs_default">sevenbag</string>
+    <string name="pref_rng_summary">Choose how the sequence of pieces is generated. 7-Bag-Randomization is highly recommended and is also used in competitive Tetris</string>
+    <string-array name="randomizer_preference_array">
+        <item>生成7种方块的随机置换序列 (默认)</item>
+        <item>普通随机</item>
+    </string-array>
+    <string-array name="randomizer_preference_values">
+        <item>sevenbag</item>
+        <item>plain</item>
+    </string-array>
+
+    <string name="softdropspeed_pref_title">软下落(按向下按钮)速度</string>
+
+    <string name="movespeed_pref_title">水平移动速度</string>
+
+
+    <string name="pref_vibration_button_title">触觉反馈</string>
+    <string name="pref_vibration_button_summary">按下游戏操作按钮时产生触觉反馈</string>
+
+    <string name="pref_vibration_events_title">事件反馈</string>
+    <string name="pref_vibration_events_summary">对游戏中的重要事件进行震动提示</string>
+
+    <!-- Advanced Preference Strings -->
+    <string name="pref_fpslimit_summary">降低功耗，节省电量</string>
+    <string name="pref_fpslimit_title">帧率限制</string>
+
+    <string name="pref_fpslimittext_summary">游戏将保持该帧率运行</string>
+    <string name="pref_fpslimittext_title">目标帧率</string>
+    <string name="pref_fpslimittext_default">30</string>
+
+    <string name="pref_vibDurOffset_summary">调整触觉反馈持续时间</string>
+    <string name="pref_vibDurOffset_title">震动持续时间</string>
+    <string name="pref_vibDurOffset_default">15</string>
+
+    <string name="pref_antialiasing_summary">提高文本显示质量，禁用以获得更好的性能</string>
+    <string name="pref_antialiasing_title">图形保真</string>
+
+    <string name="pref_accelerationH_summary">移动前产生的短暂延时，建议初学者使用</string>
+    <string name="pref_accelerationH_title">水平加速度</string>
+
+    <string name="pref_accelerationV_summary">移动前产生的短暂延时，建议初学者使用</string>
+    <string name="pref_accelerationV_title">软下落加速度</string>
+
+
+    <string name="pref_layoutswap_summary">交换软下落按钮和硬下落按钮的位置</string>
+    <string name="pref_layoutswap_title">交换下落按钮</string>
+
+
+    <string name="pref_category_vibration">震动</string>
+    <string name="pref_category_other">其他</string>
+    <string name="pref_category_advanced">高级设置</string>
+    <string name="pref_category_layout">布局</string>
+
+
+</resources>

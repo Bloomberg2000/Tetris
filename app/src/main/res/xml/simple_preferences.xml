@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:robobunny="http://robobunny.com">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_phantom"
+        android:summary="@string/pref_phantom_summary"
+        android:title="@string/pref_phantom_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_popup"
+        android:summary="@string/pref_popup_summary"
+        android:title="@string/pref_popup_title" />
+
+    <PreferenceCategory
+        android:key="vibration_settings"
+        android:title="@string/pref_category_vibration">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_vibration_button"
+            android:summary="@string/pref_vibration_button_summary"
+            android:title="@string/pref_vibration_button_title" />
+
+        <EditTextPreference
+            android:defaultValue="@string/pref_vibDurOffset_default"
+            android:dialogMessage="@string/pref_vibDurOffset_summary"
+            android:dialogTitle="@string/pref_vibDurOffset_title"
+            android:key="pref_vibDurOffset"
+            android:negativeButtonText="Cancel"
+            android:numeric="integer"
+            android:positiveButtonText="OK"
+            android:title="@string/pref_vibDurOffset_title" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_vibration_events"
+            android:summary="@string/pref_vibration_events_summary"
+            android:title="@string/pref_vibration_events_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="other_settings"
+        android:title="@string/pref_category_other">
+
+
+        <Preference
+            android:key="pref_advanced"
+            android:title="@string/pref_category_advanced">
+
+        </Preference>
+
+    </PreferenceCategory>
+</PreferenceScreen>
